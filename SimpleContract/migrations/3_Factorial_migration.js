@@ -1,12 +1,12 @@
 /*
 Constant attached to the published smart contract
 */
-const Migrations = artifacts.require("Migrations");
+const Factorial = artifacts.require("Factorial");
 
 /*
 Publication of the artifact and the contract attached to it.
-@param Migrations - artifact const.
+@param Factorial - artifact const.
 */
 module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(Factorial);
 };
